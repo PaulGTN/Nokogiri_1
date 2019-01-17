@@ -1,6 +1,7 @@
-require 'rubygems'
+require 'rspec'
+require 'pry'
 require 'nokogiri'
-require 'open-uri'   
+require 'open-uri' 
 
 page = Nokogiri::HTML(open("https://coinmarketcap.com/all/views/all/"))
 
